@@ -1,0 +1,29 @@
+#synapse-floating-btn {
+  position: fixed;
+  z-index: 2147483647;
+  bottom: 30px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #6366f1;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  user-select: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+#synapse-floating-btn:hover {
+  background: #4f46e5;
+  transform: scale(1.05);
+}
+
+#synapse-floating-btn:active {
+  cursor: grabbing;
+  transform: scale(0.95);
+}
